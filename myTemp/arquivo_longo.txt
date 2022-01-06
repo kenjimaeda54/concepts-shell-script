@@ -1,0 +1,16 @@
+Comprimento de onda: (Tx)1550 nm (Rx) 1310 nm Padrões IEEE 802.3 (10BASE-T), 802.3u (100BASE-TX), 802.3u (100BASE-FX) e 802.3x (Flow Control)
+
+Protocolos CSMA/CD e TCP/IP 
+
+
+Estou aprendendo a editar como estou sofrendo
+Estou insirindo 
+
+1 conector RJ45 fêmea com suporte a cabeamento UTP categoria 3, 4, 5 e 5e (máximo 100 m)  
+
+Acompanha fonte de alimentação externa bivolt automática 
+LEDs indicadores Tecnologia LFP DIP switch (chaveamento manual de configuração)
+Multiplexação por divisão de comprimento de onda (WDM) 
+
+1 conector SC fêmea (única conectorização) com suporte a Fibra Monomodo (SMF) 9/125µm (máximo 20 km)
+eu estou edBfsdfnsdon
