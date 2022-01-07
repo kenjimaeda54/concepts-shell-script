@@ -6,21 +6,16 @@ echo " "
 
 DATENOW=$(date +%X)
 DATEHOUR=$(date +%H)
-case "$DATEHOUR" in
-    [06-12])
-        echo "Bom dia"
-        echo  "Hora atual: $DATENOW"
-        ;;
-    [13-18])
-        echo "Boa tarde"
-        echo  "Hora atual: $DATENOW"
-        ;;
-    [20])
-        echo "Boa noite"
-        echo  "Hora atual: $DATENOW"
-        ;;
-    *)
-        echo "Hora inválida"
-        echo "$DATEHOUR"
-        ;;
-esac        
+
+if [ $DATEHOUR -gt 6 ]; 
+then
+    echo "Bom Dia"
+    echo "Hora atual $DATENOW"
+elif [ $DATEHOUR -gt 6 -a $DATEHOUR -le 16 ]; 
+then
+    echo "Boa Tarde"
+    echo "Hora atual $DATENOW"
+else
+    echo "Boa Noite"
+    echo "Hora atual $DATENOW"
+fi 
