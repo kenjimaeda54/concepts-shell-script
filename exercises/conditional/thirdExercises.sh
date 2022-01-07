@@ -1,6 +1,11 @@
 #!/bin/bash
 
 
+echo "Crie um script que receba do usuário 2 valores e em seguida exiba um menu 
+para ele escolha uma das 4 principais operações aritmétricas (soma, 
+subtração, multiplicação e divisão). Após isso a operação e o resultado são 
+exibidos ao usuário."
+echo ""
 echo "Escolha uma operacao abaixo:"
 echo "1 - Soma"
 echo "2 - Subtracao"
