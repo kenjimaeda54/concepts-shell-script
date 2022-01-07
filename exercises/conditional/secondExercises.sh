@@ -1,6 +1,3 @@
-#!/bin/bash
-
-
 DIRDEST=$HOME/backup
 
 if ! [ -d  $DIRDEST ]
@@ -11,6 +8,7 @@ fi
 
 # 7 e a quantidade de dias,porque desejo semanal
 # * estou pegando tudo 
+#  -name e o nome do arquivo, $DIRDEST  e o caminho
 FIND=$(find $DIRDEST -ctime -7 -name backup-home\*tgz)
 NAMEFILE=$(date +%Y%H%M%d%S)
 
@@ -43,4 +41,3 @@ echo "Criando backup"
 tar zcvpf $DIRDEST/backup-home-$NAMEFILE.tgz  --absolute-names  --exclude="$DIRDEST"  "$HOME"/* > /dev/null             
 echo
 echo "Backup realizado com sucesso"
-
