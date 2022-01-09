@@ -1,0 +1,21 @@
+dom 09 jan 2022 19:49:29 -03 Inicio do script
+dom 09 jan 2022 19:49:29 -03 Fim do script
+dom 09 jan 2022 19:52:01 -03 Inicio do script
+dom 09 jan 2022 19:52:01 -03 Fim do script
+Ola mundo
+dom 09 jan 2022 19:52:09 -03 Inicio do script
+dom 09 jan 2022 19:52:09 -03 Fim do script
+Ola mundo novamente
+dom 09 jan 2022 19:52:33 -03 Inicio do script
+dom 09 jan 2022 19:52:33 -03 Fim do script
+dom 09 jan 2022 19:53:48 -03 Inicio do script
+dom 09 jan 2022 19:53:48 -03 Fim do script
+./logScript.sh: 17: Syntax error: redirection unexpected
+dom 09 jan 2022 19:54:02 -03 Inicio do script
+dom 09 jan 2022 19:54:17 -03 Inicio do script
+dom 09 jan 2022 19:54:34 -03 Inicio do script
+dom 09 jan 2022 19:54:54 -03 Inicio do script
+dom 09 jan 2022 19:56:28 -03 Inicio do script
+Inicio do script
+dom 09 jan 2022 19:56:28 -03 Fim do script
+./logScript.sh: 21: Syntax error: redirection unexpected
